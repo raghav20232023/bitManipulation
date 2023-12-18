@@ -17,7 +17,12 @@ source code :
 
 output : 
 
-![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/bf0b80d1-2b84-4c84-88cc-bfd3162df692)
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/a11c6d24-9b86-40ff-98d7-9620e5ea87ae)
+
+117 is 1110101 in binary
+we have selected position 1 (index 0) to be cleared.
+it is 1 so after clearing it will become 0.
+final binary becomes 1110100 which is 116 in binary.
 
 **2. getBit :**
 
@@ -52,7 +57,30 @@ output :
 bit at position 2 is 0
 it is set to 1 
 so binary becomes 1110111
-which is 119 in decimal
+which is 119 in decimal.
+
+**4. updateBit :**
+
+To update the bit in a number input by the user at position input by the user to either 0 or 1.
+Remember, both the input and output is a decimal number.
+
+source code : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/b4d0778e-2bc5-44a9-a685-b1b8a00557ce)
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/6b656ebd-5323-47a5-8baf-b6392ec4847e)
+
+output : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/11be0a07-c280-417d-a1ac-e9446a81b620)
+
+117 in 1110101 in binary
+bit at position 2 is 0
+we have chosen to update it to 1
+so final binary becomes 1110111
+which is 119 in decimal.
+
+end
+
 
 
 
