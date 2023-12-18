@@ -6,7 +6,7 @@
 
 I would also like to mention that at the same time I have put considerable effort in making sure the code is as clean and readable as possible, and all the variable names are written in English language pertaining to the function they perform.
 
-**1.clearBit :**
+**1. clearBit :**
 
 To clear the bit in a number input by the user at a given position (also input by the user).
 Remember, both the input and output is a decimal number. 
@@ -18,6 +18,48 @@ source code :
 output : 
 
 ![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/bf0b80d1-2b84-4c84-88cc-bfd3162df692)
+
+**2. getBit :**
+
+To get the bit in a number input by the user at a position also input by the user.
+Remember, both the inout and output is a decimal number.
+
+source code : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/355ef35c-dd9b-4f0f-a606-0d1748dfb400)
+
+output : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/f2125426-d586-41a7-9604-fad84db40a60)
+
+117 is 1110101 in binary and bit at 3rd position from right i.e. 2nd index is 1.
+
+**3. setBit :**
+
+To set the bit in a number input by the user at position input by the user.
+Sets the bit (0 or 1) to 1.
+Remember, both the input and output is a decimal number.
+
+source code : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/29c66c78-e6bc-44f2-b378-9eb520970f68)
+
+output : 
+
+![image](https://github.com/raghav20232023/bitManipulation/assets/153320363/46f45e1e-55bf-46fd-88ec-698c33802b71)
+
+117 is 1110101 in binary
+bit at position 2 is 0
+it is set to 1 
+so binary becomes 1110111
+which is 119 in decimal
+
+
+
+
+
+
+
 
 
 
